@@ -813,7 +813,8 @@
   }
   function V(e) {
     return {
-      timeStamp: e.timestamp + "",
+	 appId:e.appId,
+      timeStamp: e.timeStamp + "",
       nonceStr: e.nonceStr,
       package: e.package,
       paySign: e.paySign,
